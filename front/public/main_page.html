@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="main_page_style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <title>main</title>
+  </head>
+  <body>
+    <aside>
+      <div class="aside-content-wrapper">
+        <div class="aside-content-filter">
+          <div>
+            <input type="checkbox" name="iphone" class="brand" />
+            <label>Iphone</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="samsung" class="brand" />
+            <label>Samsung</label>
+          </div>
+        </div>
+        <div class="aside-content-filter">
+          <div>
+            <input
+              type="radio"
+              name="price_range"
+              class="price_range"
+              value="asc"
+            />
+            <label>Дешевые</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="price_range"
+              class="price_range"
+              value="desc"
+            />
+            <label>Дорогие</label>
+          </div>
+        </div>
+        <div><a href="/basket">Корзина</a></div>
+      </div>
+    </aside>
+    <div class="cards-wrapper"></div>
+  </body>
+
+  <script type="module" src="main/main.js"></script>
+  <script type="module" src="main/filtering.js"></script>
+  <!-- <script type="module" src="basket/addToBasket.js"></script> -->
+</html>

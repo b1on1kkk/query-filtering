@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+}
+
+aside {
+  position: relative;
+  flex: 1;
+}
+
+.aside-content-wrapper {
+  padding: 20px;
+  position: fixed;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.aside-content-wrapper div {
+  margin-bottom: 10px;
+}
+
+.cards-wrapper {
+  flex: 5;
+}
+
+.card-wrapper {
+  display: flex;
+  margin: 20px;
+}
+
+.card-text-restaurant-wrapper {
+  margin: 20px;
+}
+
+.btn a {
+  color: white;
+}
+
+.aside-content-filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

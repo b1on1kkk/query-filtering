@@ -1,0 +1,14 @@
+.card-wrapper {
+  display: flex;
+  margin: 10px;
+}
+
+.card-text-restaurant-wrapper {
+  margin: 20px;
+}
+
+.back {
+  display: flex;
+  font-size: 25px;
+  margin: 10px;
+}
